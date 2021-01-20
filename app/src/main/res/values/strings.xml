@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Scanner</string>
+    <string name="internet_unavailable">Интернет не доступен</string>
 </resources>
