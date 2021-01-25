@@ -4,7 +4,6 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.georgcantor.scanner.databinding.ActivityMainBinding
 import com.georgcantor.scanner.util.NetworkUtils.getNetworkLiveData
-import com.georgcantor.scanner.util.setVisibility
 import com.georgcantor.scanner.util.viewBinding
 
 class MainActivity : AppCompatActivity() {
@@ -16,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         getNetworkLiveData(applicationContext).observe(this) {
-            binding.noInternetWarning.setVisibility(!it)
+//            binding.noInternetWarning.setVisibility(!it)
         }
     }
 }
