@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/scannerFragment">
 
     <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.georgcantor.scanner.ui.fragment.HomeFragment"
-        android:label="HomeFragment"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/scannerFragment"
+        android:name="com.georgcantor.scanner.ui.fragment.scanner.ScannerFragment"
+        android:label="ScannerFragment"
+        tools:layout="@layout/scanner_fragment" />
 
 </navigation>
