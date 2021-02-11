@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        getNetworkLiveData(applicationContext).observe(this) {
+        getNetworkLiveData(this).observe(this) {
             binding.noInternetWarning.setVisibility(!it)
         }
     }

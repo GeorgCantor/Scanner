@@ -9,6 +9,6 @@
         android:id="@+id/scannerFragment"
         android:name="com.georgcantor.scanner.ui.fragment.scanner.ScannerFragment"
         android:label="ScannerFragment"
-        tools:layout="@layout/scanner_fragment" />
+        tools:layout="@layout/fragment_scanner" />
 
 </navigation>
